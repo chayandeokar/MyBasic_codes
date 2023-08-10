@@ -1,4 +1,4 @@
-if [ MYUID -eq 1010170000 ]
+if [ $MYUID -eq 1010170000 ]
 then
         echo "we can do"
         read -p "Enter package name : " pack
@@ -13,3 +13,4 @@ then
         fi
 else
         echo "worng id"
+fi
